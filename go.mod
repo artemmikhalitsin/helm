@@ -26,21 +26,22 @@ require (
 	github.com/phayes/freeport v0.0.0-20180830031419-95f893ade6f2
 	github.com/pkg/errors v0.9.1
 	github.com/rubenv/sql-migrate v1.1.1
-	github.com/sirupsen/logrus v1.8.1
-	github.com/spf13/cobra v1.3.0
+	github.com/sirupsen/logrus v1.9.3
+	github.com/spf13/cast v1.4.1 // indirect
+	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.9.0
 	github.com/xeipuuv/gojsonschema v1.2.0
-	golang.org/x/crypto v0.0.0-20211117183948-ae814b36b871
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211
-	k8s.io/api v0.23.3
+	golang.org/x/crypto v0.28.0
+	golang.org/x/term v0.25.0
+	k8s.io/api v0.32.2
 	k8s.io/apiextensions-apiserver v0.23.3
-	k8s.io/apimachinery v0.23.3
-	k8s.io/apiserver v0.23.3
-	k8s.io/cli-runtime v0.23.3
-	k8s.io/client-go v0.23.3
-	k8s.io/klog/v2 v2.30.0
-	k8s.io/kubectl v0.23.3
+	k8s.io/apimachinery v0.32.2
+	k8s.io/apiserver v0.32.2
+	k8s.io/cli-runtime v0.32.2
+	k8s.io/client-go v0.32.2
+	k8s.io/klog/v2 v2.130.1
+	k8s.io/kubectl v0.32.2
 	oras.land/oras-go v1.1.0
-	sigs.k8s.io/yaml v1.3.0
+	sigs.k8s.io/yaml v1.4.0
 )
